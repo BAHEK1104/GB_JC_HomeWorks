@@ -10,6 +10,7 @@ public class AppData {
         Random random = new Random();
         table = new int[headers.length][headers.length];
 
+
         for (int row = 0; row < headers.length; row++) {
             for (int column = 0; column < headers.length; column++) {
                 table[row][column]  = random.nextInt(10);

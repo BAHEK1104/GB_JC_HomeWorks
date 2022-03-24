@@ -34,6 +34,7 @@ public class Main {
             System.out.println(ex.getMessage());
         }
 
+
         try (FileInputStream fileInputStream = new FileInputStream(FILE_NAME)) {
             byte[] csvData = new byte[fileInputStream.available()];
             fileInputStream.read(csvData);
