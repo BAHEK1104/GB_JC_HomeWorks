@@ -27,7 +27,6 @@ public class Main {
         }
     }
 
-
     public static String load5DayForecastOrNull() {
         try {
             // Сформировали URL для запроса к серверу.
